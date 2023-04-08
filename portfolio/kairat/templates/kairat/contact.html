@@ -1,0 +1,21 @@
+{% extends 'kairat/base.html' %}
+{% block contact %}
+<form action="#" method="post">
+    <fieldset class="col-md-4">
+        <input id="name" type="text" name="name" placeholder="Name">
+    </fieldset>
+    <fieldset class="col-md-4">
+        <input type="email" name="email" id="email" placeholder="Email">
+    </fieldset>
+    <fieldset class="col-md-4">
+        <input type="text" name="subject" id="subject" placeholder="Subject">
+    </fieldset>
+    <fieldset class="col-md-12">
+        <textarea name="message" id="message" placeholder="Message"></textarea>
+    </fieldset>
+    <fieldset class="col-md-12">
+        <input type="submit" name="send" value="Send Message" id="submit"
+               class="button">
+    </fieldset>
+</form>
+{% endblock contact %}

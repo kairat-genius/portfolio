@@ -1,0 +1,74 @@
+.button{
+	display: inline-block;
+	margin-bottom: 5px;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	  touch-action: manipulation;
+	cursor: pointer;
+		  user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+    text-shadow: none;
+	font-weight: normal !important;
+	letter-spacing: 1px;
+			transition: all .25s ease-in-out;
+}
+
+.button,
+.button:hover{
+	color: #fff !important;
+}
+
+
+.button small {
+    margin-top: 0px;
+}
+.button:focus {
+    outline: none;
+    color: #fff;
+}
+
+.button-md { font-size: 11px; padding: 12px 25px;}
+
+.button-md.button-rounded,
+.button-rounded.button-md {border-radius: 7px;}
+
+/* Secondary Colors */
+.button.button-red, .button-3d.button-red 		    { background-color: #fd3635; }
+.button.button-pink, .button-3d.button-pink 		{ background-color: #fd40b3; }
+.button.button-orange, .button-3d.button-orange 	{ background-color: #ff8b34; }
+.button.button-purple, .button-3d.button-purple 	{ background-color: #a85ad4; }
+.button.button-blue, .button-3d.button-blue 		{ background-color: #3dace1; }
+.button.button-cyan, .button-3d.button-cyan 		{ background-color: #1abc9c; }
+.button.button-green, .button-3d.button-green 	    { background-color: #b2cc71; }
+.button.button-yellow, .button-3d.button-yellow 	{ background-color: #ffc501; }
+.button.button-gray, .button-3d.button-gray 		{ background-color: #e0e0e0; color: #111 !important; }
+.button.button-dark, .button-3d.button-dark 		{ background-color: #5f6467; }
+.button.button-black, .button-3d.button-black 		{ background-color: #000000; }
+.button.button-white, .button-3d.button-white 		{ background-color: #ffffff; color: #111 !important;}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: black;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transform: color .4s ease;
+}
+socials a:hover i{
+    color: aqua;
+}
